@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements inter1 {
     @BindViews({R.id.test_btn1, R.id.test_btn2, R.id.test_btn3, R.id.test_btn4, R.id.test_btn5})
     List<Button> aButtons;
 
-    // git update comment
+    // test
     @BindView(R.id.butterknife)
     TextView butterknife;
 
