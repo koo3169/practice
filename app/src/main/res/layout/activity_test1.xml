@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test1Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sv_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border1"
+        android:text="서비스 시작"/>
+
+    <TextView
+        android:id="@+id/sv_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border1"
+        android:text="서비스 중지"/>
+
+    <TextView
+        android:id="@+id/sv_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border1"
+        android:text="바인드 시작"/>
+
+    <TextView
+        android:id="@+id/sv_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border1"
+        android:text="바인드 종료"/>
+
+    <TextView
+        android:id="@+id/sv_call_var"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/border1"
+        android:text="값 불러오기"/>
+
+</LinearLayout>
